@@ -7,5 +7,5 @@ function findMatching(drivers, value) {
       }
 
     }
-    return newDrivers
+    console.log(newDrivers)
 }
