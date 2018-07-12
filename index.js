@@ -16,6 +16,7 @@ def fuzzyMatch(drivers, value) {
     if( name.substring(0,2) == value.substring(0,2)){
       newDrivers.push(name)
     }
-
+    
   }
+  return newDrivers
 }
