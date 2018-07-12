@@ -2,7 +2,7 @@
 function findMatching(drivers, value) {
     const newDrivers = []
     for (const name of drivers){
-      if (name == value){
+      if (name.toLowerCase() == value.toLowerCase){
         newDrivers.push(name)
       }
 
