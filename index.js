@@ -19,10 +19,10 @@ function fuzzyMatch(drivers, value) {
     }
 
   }
-  console.log(newDrivers)
+
   return newDrivers;
 }
 
 function mathName() {
-  
+
 }
