@@ -5,7 +5,7 @@ function findMatching(drivers, value) {
       if (name.toLowerCase() == value.toLowerCase){
         newDrivers.push(name)
       }
-
+      
     }
-    console.log(newDrivers)
+    return newDrivers
 }
