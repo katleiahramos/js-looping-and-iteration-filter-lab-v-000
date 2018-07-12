@@ -10,6 +10,7 @@ function findMatching(drivers, value) {
     return newDrivers
 }
 
+
 def fuzzyMatch(drivers, value) {
   const newDrivers = [];
   for (const name of drivers){
@@ -18,5 +19,6 @@ def fuzzyMatch(drivers, value) {
     }
 
   }
+  console.log(newDrivers)
   return newDrivers;
 }
