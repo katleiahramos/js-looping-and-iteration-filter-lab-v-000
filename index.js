@@ -27,7 +27,7 @@ function matchName(drivers, value) {
   const newDrivers = [];
   for (const object in drivers){
     if (drivers[object].name == value){
-      newDrivers.push(drivers[object].name)
+      newDrivers.push(drivers[object])
     }
   }
   return newDrivers;
