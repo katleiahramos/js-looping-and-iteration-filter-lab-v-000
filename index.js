@@ -25,8 +25,8 @@ function fuzzyMatch(drivers, value) {
 
 function matchName(drivers, value) {
   const newDrivers = [];
-  for (const i in drivers){
-      
+  for (const driver in drivers){
+    
   }
   return newDrivers;
 }
