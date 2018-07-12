@@ -2,8 +2,7 @@
 function findMatching(names, value) {
     for (const name of names){
       if (name == value){
-        
+        console.log(name)
       }
-      console.log(name)
     }
 }
